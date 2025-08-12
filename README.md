@@ -41,14 +41,14 @@
 
 ### Method 1: Direct Download & Run
 ```bash
-wget -O install-windows-vm.sh https://raw.githubusercontent.com/your-username/windows-vm-installer/main/install-windows-vm.sh
+wget -O install-windows-vm.sh https://raw.githubusercontent.com/Danz-X/windows-vm-installer/main/install-windows-vm.sh
 chmod +x install-windows-vm.sh
 bash install-windows-vm.sh
 ```
 
 ### Method 2: Clone Repository
 ```bash
-git clone https://github.com/your-username/windows-vm-installer.git
+git clone https://github.com/Danz-X/windows-vm-installer.git
 cd windows-vm-installer
 chmod +x install-windows-vm.sh
 bash install-windows-vm.sh
@@ -56,7 +56,7 @@ bash install-windows-vm.sh
 
 ### Method 3: One-liner Installation
 ```bash
-curl -sSL https://raw.githubusercontent.com/your-username/windows-vm-installer/main/install-windows-vm.sh | bash
+curl -sSL https://raw.githubusercontent.com/Danz-X/windows-vm-installer/main/install-windows-vm.sh | bash
 ```
 
 ## Installation Process
