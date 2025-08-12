@@ -295,7 +295,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Acknowledgments
 
-- [dockurr/windows](https://github.com/dockurr/windows) - The Docker image that makes this possible
+- [dockurr/windows](https://github.com/dockur/windows) - The Docker image that makes this possible
 - [Docker](https://docker.com) - Containerization platform
 - Ubuntu community for the excellent documentation
 
