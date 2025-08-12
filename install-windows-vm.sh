@@ -178,14 +178,14 @@ get_user_preferences() {
     read -p "Disk size in GB [150]: " disk_size
     DISK_SIZE="${disk_size:-150}G"
     
-    read -p "Windows username [admin]: " username
-    USERNAME=${username:-admin}
+    read -p "Windows username [Administrator]: " username
+    USERNAME=${username:-Administrator}
     
     while true; do
-        read -s -p "Windows password [Nezuko123]: " password
+        read -s -p "Windows password [Danz-X]: " password
         echo
         if [[ -z "$password" ]]; then
-            PASSWORD="Nezuko123"
+            PASSWORD="Danz-X"
             break
         elif [[ ${#password} -ge 8 ]]; then
             PASSWORD="$password"
